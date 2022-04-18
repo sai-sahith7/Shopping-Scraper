@@ -27,14 +27,3 @@ def amazon(searches):
     return result
 
 print(amazon(["iphone"]))
-
-# for links
-# soup2.find_all("a", attrs={"class" : "a-link-normal s-no-outline","href" : re.compile("keywords=")})
-# for images
-# soup2.find_all("img", attrs={"data-image-source-density" : "1"})
-
-# print(len(soup2.find_all("a", attrs={"class" : "a-link-normal s-no-outline","href" : re.compile("keywords=")})))
-#         print(len(soup2.find_all("img", attrs={"data-image-source-density" : "1"})))
-#         print(len(soup2.find_all("span", attrs={"class": "a-price-whole"})))
-
-#check lengths we need price tag
